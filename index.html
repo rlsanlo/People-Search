@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>People Search</title>
+</head>
+<body>
+    <div id="container" class="row">
+        <h1 class="col s12"><i class="fa fa-search" aria-hidden="true"></i> <span> People Search</span></h1>
+        <div id="e-search" class="row">
+          <form id="form-search">
+            <div class="col s8" id="reg-field"><input type="text" name="nome" id="f-name"
+                placeholder="digite um nome para pesquisar" /></div>
+            <button type="submit" class=" btn button-green" >Buscar</button>
+          </form>
+        </div>
+        <div id="results" class="row">
+          <div id="users" class="col s6">
+            <h5><i class="fa fa-user-circle-o" aria-hidden="true"></i> Nenhum usuário filtrado.</h5>
+          </div>
+          <div id="statistics" class="col s6">
+            <h5><i class="fa fa-bar-chart" aria-hidden="true"></i> Nada a ser exibido.</h5>
+          </div>
+        </div>
+      </div>
+      <script src="./js/script.js"></script>
+</body>
+</html>

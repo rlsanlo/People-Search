@@ -1,0 +1,58 @@
+/*Buttons*/
+/* #39b54a - Verde / #007aff - Azul  */
+.button{
+    display: inline-block;
+    padding: 15px;
+    border:none;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222;
+    background: #ddd ;
+    cursor: pointer;
+}
+
+.button:hover{
+    text-decoration: none;
+    transition: background 0.2s ease-in-out 0s;
+}
+
+.button-right {
+    float: right;
+    clear: both;
+}
+
+.button-big{
+    padding: 25px 40px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.button-blue{
+    color: #fff;
+    background: #007aff;
+}
+.button-blue:hover{
+    background: #5799e0;
+}
+
+.button-green{
+    color: #fff;
+    background: #39b54a;
+    border-radius: 30px;
+}
+
+.button-green:hover{
+    background: #53e466;
+}
+
+.button-outline{
+    border: 1px solid #fff;
+    color: #fff;
+    background: none;
+}
+
+.button-outline:hover{
+    border: 1px solid #115f1b;
+    background: #39b54a;
+}
